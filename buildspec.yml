@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo codigo habilitado
+
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - technology-radar-vol-20-en.pdf
+    - styles/main.css
+    - images/*
