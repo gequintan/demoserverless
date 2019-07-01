@@ -1,9 +1,12 @@
-version: 0.1
+version: 0.2
 
 phases:
   build:
     commands:
       - echo codigo habilitado
+  install:
+    runtime-versions:
+      nodejs: 8
 
 artifacts:
   files:
